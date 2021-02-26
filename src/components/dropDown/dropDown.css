@@ -1,0 +1,134 @@
+.drop_down {
+    position: relative;
+}
+
+.drop_down label {
+    margin-top: 7px;
+    margin-bottom: 6px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #756F86;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 52px;
+    padding-left: 16px;
+    padding-right: 11px;
+
+    box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+    border: 1px solid #DBE2EA;
+    border-radius: 6px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #7C9CBF;
+    cursor: default;
+    outline: none;
+}
+
+.select:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 52px;
+    padding-left: 16px;
+    padding-right: 11px;
+
+    box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+    border: 1px solid #0880AE;
+    border-radius: 6px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #2C2738;
+    cursor: default;
+    outline: none;
+}
+
+.black {
+    color: #2C2738;
+    user-select: none;
+}
+
+.select div {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop_menu {
+    width: auto;
+    height: 200px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 100%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    border: 1px solid #DBE2EA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04), 0px 20px 20px rgba(44, 39, 56, 0.04);
+    border-radius: 6px;
+
+    padding-top: 10px;
+    outline: none;
+    user-select: none;
+}
+
+.drop_item {
+    width: auto;
+    height: 44px;
+    padding-left: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    cursor: pointer;
+    color: #756F86;
+    outline: none;
+    user-select: none;
+}
+
+.drop_item:hover {
+    width: auto;
+    height: 44px;
+    background: #EBF4F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+    outline: none;
+}
+
+.drop_item p {
+    width: auto;
+    margin: 0;
+}
+
+.drop_arrow {
+    user-select: none;
+}
